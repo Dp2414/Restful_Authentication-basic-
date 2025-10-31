@@ -6,7 +6,7 @@ app.use(cors())
 app.use(express.json());
 const bcrypt = require("bcrypt")
 
-mongoose.connect("mongodb+srv://dpdp8311:dpdp8311@cluster0.5ysqydm.mongodb.net/newform")
+mongoose.connect("mongodb+srv://@.mongodb.net/newform")
     .then(() => {
         console.log("Db is connected")
     })
