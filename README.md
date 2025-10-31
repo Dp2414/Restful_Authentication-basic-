@@ -100,13 +100,7 @@ Practice/
 | POST | `/signup` | Register new user |
 | POST | `/login` | Authenticate user |
 
-## 🎨 UI Features
 
-- **Gradient Background** - Beautiful blue to indigo gradient
-- **Card Design** - Clean white cards with shadows
-- **Form Validation** - Real-time error feedback
-- **Loading States** - Spinner during API calls
-- **Responsive Layout** - Mobile-first design
 
 ## 🔒 Security Features
 
@@ -123,9 +117,7 @@ Practice/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
 
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🐛 Issues
 
