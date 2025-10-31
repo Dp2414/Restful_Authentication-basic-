@@ -44,7 +44,7 @@ const App = () => {
     setErrors({})
     
     try {
-      const endpoint = isLogin ? "/login" : "/signup"
+      const endpoint = isLogin ? "/api/auth/login" : "/api/users"
       const payload = isLogin 
         ? { email: formData.email, password: formData.password }
         : formData

@@ -93,12 +93,21 @@ Practice/
     └── index.html         # HTML template
 ```
 
-## 🔧 API Endpoints
+## 🔧 RESTful API Endpoints
 
+### Users Resource
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| POST | `/signup` | Register new user |
-| POST | `/login` | Authenticate user |
+| GET | `/api/users` | Get all users |
+| GET | `/api/users/:id` | Get user by ID |
+| POST | `/api/users` | Create new user (signup) |
+| PUT | `/api/users/:id` | Update user |
+| DELETE | `/api/users/:id` | Delete user |
+
+### Authentication
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/auth/login` | Authenticate user |
 
 
 
@@ -108,19 +117,5 @@ Practice/
 - Input validation and sanitization
 - CORS protection
 - Error handling for secure responses
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-## 🐛 Issues
-
-Found a bug? Please open an issue [here](../../issues).
 
 
